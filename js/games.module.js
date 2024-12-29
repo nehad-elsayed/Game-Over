@@ -8,7 +8,7 @@ let choice = document.querySelectorAll(".nav-item a");
 
 export class Games {
   constructor() {
-    this.getApi("mmorpg");
+    this.getApi("shooter");
     for (let item of choice) {
       item.addEventListener("click", (e) => {
         document.querySelector(".nav-item .active").classList.remove("active");

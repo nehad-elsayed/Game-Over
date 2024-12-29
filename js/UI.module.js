@@ -12,13 +12,13 @@ export class UI {
     for(let i =0 ; i < data.length ; i++){
     
      box+=`
-         <div class="col-md-3 my-3">
+         <div class="col-md-6 col-lg-4 col-xl-3 my-3">
                             <div class="inner h-100">
                                 <div data-id="${data[i].id}" class="card h-100 my-card text-white">
                                     <img class="card-img-top my-img" src="${data[i].thumbnail}" alt="${data[i].title}" />
                                     <div class="card-body">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <h3 class="h6">${data[i].title}</h3>
+                                            <h3 class="h6">${data[i].title.split(" ",1)}</h3>
                                             <span class="btn btn-success text-white">Free</span>
                                         </div>
                                     </div>

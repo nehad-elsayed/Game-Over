@@ -7,13 +7,7 @@ let header= document.querySelector('header')
 // console.log(lightContainer,header)
 
 
-document.querySelector('.icon-close').addEventListener("click" , () => {
-  header.classList.remove("d-none")
-  lightContainer.classList.add("d-none")
-  
-  console.log("hello")
-  })
- 
+
 
 export class Details{
 
@@ -24,19 +18,14 @@ constructor(id){
 
 
 
-// document.querySelector('.icon-close').addEventListener("click" , () => {
-// header.classList.remove("d-none")
-// lightContainer.classList.add("d-none")
+document.querySelector('.icon-close').addEventListener("click" , () => {
+header.classList.remove("d-none")
+lightContainer.classList.add("d-none")
 
-// console.log("hello")
-// })
+console.log("hello")
+})
 
-// lightContainer.addEventListener('keyup',(e)=>{
-//     if(e.key=="Esc"){
-//         header.classList.remove("d-none")
-//         lightContainer.classList.add("d-none")
-//     }
-// })
+
 
 this.getGameDetails(id);
 }
