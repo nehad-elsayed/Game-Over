@@ -19,15 +19,15 @@ export class UI {
                                     <div class="card-body">
                                         <div class="d-flex align-items-center justify-content-between">
                                             <h3 class="h6">${data[i].title.split(" ",1)}</h3>
-                                            <span class="btn btn-success text-white">Free</span>
+                                            <span class="btn btn-success text-white freebadge">Free</span>
                                         </div>
                                     </div>
                                     <p class="p-3">
                                         ${data[i].short_description.split(" " ,8)}
                                     </p>
                                     <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <span class="badge bg-secondary text-white my-span">${data[i].genre}</span>
-                                        <span class="badge bg-secondary text-white my-span">${data[i].platform}</span>
+                                        <span class="badge mabadge text-white my-span">${data[i].genre}</span>
+                                        <span class="badge mabadge text-white my-span">${data[i].platform.split(" ",2)}</span>
                                     </div>
                                 </div>
                             </div>

@@ -4,7 +4,7 @@ let loading = document.querySelector('.loading');
 let lightContainer= document.querySelector('.light-container')
 let header= document.querySelector('header')
 // console.log(btnClose)
-// console.log(lightContainer,header)
+console.log(lightContainer,header)
 
 
 
