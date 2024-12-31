@@ -1,9 +1,9 @@
 import { UI } from "./UI.module.js";
 let loading = document.querySelector('.loading');
-// let btnClose= document.querySelector('.icon-close')
+let BtnClose= document.getElementById("BtnClose")
 let lightContainer= document.querySelector('.light-container')
 let header= document.querySelector('header')
-// console.log(btnClose)
+console.log(BtnClose)
 console.log(lightContainer,header)
 
 
@@ -17,8 +17,7 @@ constructor(id){
 
 
 
-
-document.querySelector('.icon-close').addEventListener("click" , () => {
+    BtnClose.addEventListener("click" , () => {
 header.classList.remove("d-none")
 lightContainer.classList.add("d-none")
 
